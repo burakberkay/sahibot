@@ -1,0 +1,23 @@
+# Gizli bilgiler - asla depoya girmemeli
+.env
+apikey.env
+hesap_bilgileri.json
+
+# Kullanici verileri (kayitli aramalar, chat id'ler)
+kullanici_verileri.json
+
+# Chrome oturum profili - giris cerezlerini icerir
+sahibinden_profil/
+
+# Yerel calisma dosyalari
+sahibotv2.py
+debug_*.py
+*_ornek.html
+*_ornekleri.html
+break.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
