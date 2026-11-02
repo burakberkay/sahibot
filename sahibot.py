@@ -157,7 +157,7 @@ def verileri_yukle():
 # ---------------------------------------------------------------
 # HESAP BILGILERI
 # ---------------------------------------------------------------
-# Not: sifreler duz metin saklanir. Dosya .gitignore icinde, sadece
+# Not: sifreler duz metin saklanir. 
 # kendi hesabiniz icin kullanin.
 def hesap_verilerini_kaydet():
     with open(HESAP_DOSYASI, "w", encoding="utf-8") as f:
